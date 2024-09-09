@@ -1,5 +1,9 @@
-a {
-    background-color: rgb(red, green, blue);
-    font-weight: bold;
-    font-size: 30px;
+html.body{
+    margin: 0;
+    padding: 0;
+    width: 100;
+}
+
+.test {
+    font-size: 40px;
 }
