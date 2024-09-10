@@ -16,9 +16,10 @@ html.body{
     cursor: pointer;
     padding:20px;
     margin-top:20px;
-    border-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     
-    margin-left: px;
+    
   }
   .mainmenubtn:hover {
     background-color: grey;
@@ -51,9 +52,15 @@ html.body{
     width: 100%;
     object-fit: cover;
     transition: transform 0.3s, box-shadow 0.3s;
-    border-radius: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
   }
   .row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .container img:hover {
+    transition: transform 0.3s, box-shadow 0.3s;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   }
@@ -114,3 +121,8 @@ html.body{
     border: none;
     cursor: pointer;
   }
+  
+  
+
+
+  
