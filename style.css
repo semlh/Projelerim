@@ -7,3 +7,110 @@ html.body{
 .test {
     font-size: 40px;
 }
+
+  .mainmenubtn {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    margin-left: px;
+  }
+  .mainmenubtn:hover {
+    background-color: grey;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+  }
+  .dropdown-child a:hover {
+    background-color: gray;
+  }
+  .dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-child {
+    display: block;
+  }
+  
+  .row img {
+    border: 2px solid #000;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 50px;
+  }
+  .row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .product-title {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .nav-link:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .contact-form {
+    background: linear-gradient(to right, gray, aliceblue);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 15px;
+  }
+  .contact-form .form-control {
+    border-radius: 1rem;
+  }
+  .contact-image {
+    text-align: center;
+  }
+  .contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+  }
+  .contact-form form {
+    padding: 14%;
+  }
+  .contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: rgb(22, 12, 12);
+  }
+  .contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: gray;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+  }
