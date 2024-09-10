@@ -1,17 +1,8 @@
-const themeToggleBtn = document.getElementById('theme-toggle');
-themeToggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
-});
+const button=document.getElementById('darkmode');
+const body= document.body
 
-const matchDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+button.addEventListener('click',()=>
+    {
+        body.classList.toggle('darkmod')
+    });
 
-function applyThemeChange(event) {
-  if (event.matches) {
-    document.body.classList.add('dark-theme');
-  } else {
-    document.body.classList.remove('dark-theme');
-  }
-}
-
-matchDarkMode.addListener(applyThemeChange);
-applyThemeChange(matchDarkMode);
