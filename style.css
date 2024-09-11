@@ -1,11 +1,12 @@
 .test {
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
   .mainmenubtn {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     background-color: skyblue;
-    color: white;
+    color: gray;
     border: none;
     cursor: pointer;
     padding:20px;
@@ -69,12 +70,13 @@
     transition: transform 0.3s, box-shadow 0.3s;
   }
 
+
   .contact-form {
-    background: linear-gradient(to right, gray, aliceblue);
+    background: linear-gradient(to right, rgb(1, 123, 223), black);
     margin-top: 10%;
     margin-bottom: 5%;
     width: 70%;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   .contact-form .form-control {
     border-radius: 1rem;
@@ -101,7 +103,7 @@
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
-    background: gray;
+    background: rgb(3, 58, 129);
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -120,19 +122,91 @@
     background-size: cover;
     transition: background-image 0.5s ease;
   }
-  body.darkmod{
+  body.darkmods{
    background-image:url('dark.jpg');
   }
   
-  #darkmodnav{
+  #darkmodnav {
+    background: linear-gradient(to right, aliceblue, skyblue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-image 0.5s ease;
-  }
-  #darkmodnav.darkmod1{
-    background: linear-gradient(to right,rgb(0, 0, 0),rgb(1, 95, 64));box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  }
-  
-  /* hfghhgfh */
-  
+}
+#darkmodnav.darkmod1 {
+  background: linear-gradient(to  right,black,rgb(19, 69, 86));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#anamenubtn{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: skyblue;
+  color: gray;
+}
+#anamenubtn.darkmode2{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: rgb(11, 128, 83);
+  color: aliceblue;
+}
+#darkmode{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: skyblue;
+  color: gray;
+}
+#darkmode.darkmodel{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: rgb(11, 128, 83);
+  color: aliceblue;
+}
+#footers{
+  position:sticky;
+  background: linear-gradient(to right,aliceblue,skyblue); 
+  padding: 10px;
+}
+#footers.foot{
+  position:sticky;
+  background: linear-gradient(to right,black,rgb(19, 69, 86)); 
+  padding: 10px;
+  color: white;
+}
+#yazı{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+#yazı.yazıcss{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: aliceblue;
+}
+#yazı2.yazıcss1{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: aliceblue;
+}
+#yazı3.yazıcss2{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: aliceblue;
+}
+#yazı4.yazıcss3{
+  display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: aliceblue;
+}
+#emailFormm{
+  background: linear-gradient(to right, gray, aliceblue);
+    
+}
+#emailFormm.ilet{
+  background: linear-gradient(to right, black,rgb(1, 123, 223));
+}
 
 
-  
+
