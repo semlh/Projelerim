@@ -1,3 +1,8 @@
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
 .test {
     font-size: 35px;
     font-weight: 700;
@@ -86,7 +91,9 @@
     border-radius: 10px;
   }
   .contact-form .form-control {
-    border-radius: 1rem;
+   border-radius: 10px;
+   
+   
   }
   .contact-image {
     text-align: center;
@@ -141,6 +148,7 @@
 #darkmodnav.darkmod1 {
   background: linear-gradient(to  right,black,rgb(19, 69, 86));
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: rengarenk 3s infinite;
 }
 #anamenubtn{
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -172,6 +180,7 @@
   background: linear-gradient(to right,black,rgb(19, 69, 86)); 
   padding: 10px;
   color: white;
+  animation: rengarenk 3s infinite;
 }
 #yazı{
   display: block;
@@ -213,6 +222,7 @@
 }
 #emailFormm.ilet{
   background: linear-gradient(to right, black,rgb(1, 123, 223));
+  animation: rengarenk 3s infinite;
 }
 
 .ulasım{
@@ -224,11 +234,28 @@
 
 }
 .selects{
-  position: relative;
   width: 300px;
   height: 40px;
   background-color: rgb(76, 76, 128);
   color: white;
+  }
+  @keyframes rengarenk{
+    0%{
+        box-shadow: 0 0 20px red;
+    }
+    25%{
+        box-shadow: 0 0 20px green;
+    }
+    50%{
+        box-shadow: 0 0 20px blue;
+    }
+    75%{
+        box-shadow: 0 0 20px yellow;
+    }
+    100%{
+        box-shadow: 0 0 20px purple;
+    }
+    
   }
   #yazıssd{
     color: gray;
