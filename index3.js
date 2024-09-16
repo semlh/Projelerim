@@ -4,8 +4,10 @@ const navs= document.getElementById('darkmodnav');
 const button1=document.getElementById('anamenubtn');
 const ayuak=document.getElementById('footers');
 
+
 button.addEventListener('click',()=>
     {
+       
         ayuak.classList.toggle('foot')
         button.classList.toggle('darkmodel')
         button1.classList.toggle('darkmode2')

@@ -4,11 +4,13 @@ const navs= document.getElementById('darkmodnav');
 const button1=document.getElementById('anamenubtn');
 const ayuak=document.getElementById('footers');
 const iletism=document.getElementById('emailFormm');
+const deneym=document.getElementById('deneyims');
 
 
 
 button.addEventListener('click',()=>
     {
+        deneym.classList.toggle('deneyim')
         iletism.classList.toggle('ilet')
         ayuak.classList.toggle('foot')
         button.classList.toggle('darkmodel');

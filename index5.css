@@ -70,6 +70,7 @@ a{
     transition: transform 0.3s, box-shadow 0.3s;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    animation: rengarenk 3s infinite;
   }
   .product-title {
     display: block;
@@ -91,8 +92,7 @@ a{
     border-radius: 10px;
   }
   .contact-form .form-control {
-   border-radius: 10px;
-   
+   border-radius: 15px;
    
   }
   .contact-image {
@@ -159,6 +159,7 @@ a{
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   background-color: rgb(11, 128, 83);
   color: aliceblue;
+  
 }
 #darkmode{
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -322,4 +323,10 @@ a{
 .reklam img{
   margin-top: 10px;
   border-radius: 10px;
+}
+#deneyims{
+color: darkcyan;
+}
+#deneyims.deneyim{
+    color: black;
 }
