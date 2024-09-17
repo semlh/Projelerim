@@ -21,8 +21,7 @@
             </ul>
             <div   class="dropdown">
               <button id="anamenubtn" class="mainmenubtn">Ana Menü</button>
-              <div style="position: fixed; border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;;" class="dropdown-child">
+              <div style="position: fixed; border-top-right-radius: 30px;border-bottom-left-radius: 30px;;" class="dropdown-child">
                 <a href="index2.html">Tarihi Yerler</a>
                 <a href="index3.html">İletisim</a>
                 <a href="index4.html">Ulaşım</a>
@@ -37,17 +36,17 @@
     </nav>
     <div class="container contact-form"id="emailFormm" >
         
-        <form id="deneyims" class="deneyim">
+        <form id="deneyims" class="deneyim" action="form.php" method="POST">
             <h3 style="margin-top: -150px;">Eskişehirde Yaşadağınız Deneyimler</h3>
             <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <a>Adınız</a>
-                    <input type="text" id="name" class="form-control" placeholder="Adınız *" value="" />
+                    <input type="text" id="name" class="form-control" placeholder="Adınız *" value=""required />
                   </div>
                   <div class="form-group">
                     <a>Email Adresiniz:</a>
-                    <input type="email" id="email" class="form-control" placeholder="Email adresiniz *" value="" />
+                    <input type="email" id="email" class="form-control" placeholder="Email adresiniz *" value=""required />
                   </div>
                   
                 </div>
@@ -55,11 +54,11 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <a>Soyadınız</a>
-                        <input type="text" id="soyad" class="form-control" placeholder="Soyadınız *" >
+                        <input type="text" id="soyad" class="form-control" placeholder="Soyadınız *"required >
                       </div>
                     <div class="form-group">
                         <a>Telefon Numaranız:</a>
-                        <input type="text" id="phone" class="form-control" placeholder="Telefon numaranız *" value="" />
+                        <input type="text" id="phone" class="form-control" placeholder="Telefon numaranız *"required value="" />
                       </div>
                   
                 </div>
@@ -155,11 +154,11 @@
                 <div class="col-md-6"></div>
                     <div class="form-group">
                         <a>Gezdiğiniz Yerler:</a>
-                        <input type="text" id="mekan" class="form-control" placeholder="Mekan İsmi *" >
+                        <input type="text" id="mekan" class="form-control" placeholder="Mekan İsmi *"required >
                       </div>
                     <div class="form-group">
                         <a>Yediğiniz Yemekler:</a>
-                        <input type="text" id="yemek" class="form-control" placeholder="Yemekler *"  />
+                        <input type="text" id="yemek" class="form-control" placeholder="Yemekler *"required  />
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
@@ -171,17 +170,22 @@
                       <div class="col-md-6">
                         <div class="form-group">
                             <a>Önerileriniz Nelerdir?:</a>
-                          <textarea id="message" class="form-control" placeholder="Mesajınız *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea id="suggestions" name="suggestions" class="form-control" placeholder="Önerileriniz *" style="width: 100%; height: 150px;" ></textarea>
                         </div>
                         
                       </div>
-              </div>
-          
-          
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <button type="submit" class="btnDeneym">Gönder</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>                    
         </form>
       </div>
                 <footer id="footers" 
                  class="container-fluid text-center mt-5"  > <a class="nav-link"  href="https://www.eskisehir.bel.tr/">iletişim </a></footer> 
-                <script src="budoğruiletisim.js"></script>
+                <script src="deneyimler.js"></script>
 </body>
 </html>
+
